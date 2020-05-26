@@ -8,4 +8,4 @@ RUN echo 'PATH=$PATH:$HOME/.cargo/bin' >> ~/.bashrc
 
 ENV PATH $HOME/.cargo/bin:$PATH
 
-CMD /bin/bash
+#CMD /bin/bash
