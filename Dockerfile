@@ -6,4 +6,6 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > install.sh && ba
 
 RUN echo 'PATH=$PATH:$HOME/.cargo/bin' >> ~/.bashrc
 
+ENV PATH $HOME/.cargo/bin:$PATH
+
 CMD /bin/bash
